@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<submenu></submenu>
+	<unique-id>1727150851631113-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Example for a custom action</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>nvim</icon>
+	<name>open nvim</name>
+	<submenu></submenu>
+	<unique-id>1727154345366479-1</unique-id>
+	<command>kitty -e nvim</command>
+	<description>open nvim in kitty</description>
+	<range>*</range>
+	<patterns>*.conf,*rc,*css</patterns>
+	<directories/>
+	<other-files/>
+	<text-files/>
+</action>
+</actions>
