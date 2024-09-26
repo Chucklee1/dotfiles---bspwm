@@ -41,9 +41,17 @@ control + shift + 3
 # HOTKEYS
 #
 
-# sxhkd reload config/restart bspwm:
-super + {_,shift + }Escape
-	{bspc wm -r, pkill -USR1 -x sxhkd}
+# restart bspwm:
+control + alt + r
+	bspc wm -r
+
+# quit bspwm
+control + alt + Escape
+	quit
+
+# sxhkd reload
+super + Escape
+	pkill -USR1 -x sxhkd
 
 # close/kill node
 super + {_,shift + }q
