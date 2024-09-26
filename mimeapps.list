@@ -1,9 +1,15 @@
 [Default Applications]
 text/css=userapp-kitty -e nvim-HOKMU2.desktop
 font/collection=userapp-kitty -e nvim-HOKMU2.desktop
-text/plain=userapp-kitty -e nvim-HOKMU2.desktop
+text/plain=userapp-kitty -e nvim-159IU2.desktop
+application/x-zerosize=userapp-kitty -e nvim-159IU2.desktop
+application/octet-stream=userapp-kitty -e nvim-159IU2.desktop
+application/x-shellscript=userapp-kitty -e nvim-159IU2.desktop
 
 [Added Associations]
 text/css=nvim.desktop;userapp-kitty -e nvim-HOKMU2.desktop;
 font/collection=userapp-kitty -e nvim-HOKMU2.desktop;
-text/plain=userapp-kitty -e nvim-HOKMU2.desktop;
+text/plain=userapp-kitty -e nvim-HOKMU2.desktop;userapp-kitty -e nvim-159IU2.desktop;
+application/x-zerosize=nvim.desktop;userapp-kitty -e nvim-159IU2.desktop;
+application/octet-stream=userapp-kitty -e nvim-159IU2.desktop;
+application/x-shellscript=userapp-kitty -e nvim-159IU2.desktop;

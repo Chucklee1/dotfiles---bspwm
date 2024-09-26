@@ -10,7 +10,7 @@
 #: The basic colors
 
 foreground                      #b9c0cb
-background                      #1C1D23
+background                      #282c34
 selection_foreground            #282c34
 selection_background            #b9c0cb
 

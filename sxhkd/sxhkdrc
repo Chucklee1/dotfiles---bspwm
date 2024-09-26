@@ -30,9 +30,13 @@ control + shift + 1
 control + shift + 2
 	kitty -e nvim ~/.config/bspwm/bspwmrc
 
-# .xinitrc
+# init
 control + shift + 3
-	kitty -e nvim ~/.xinitrc
+	kitty -e nvim ~/.scripts/start.sh
+
+# polybar
+control + shift + 4
+	nvim ~/.conifg/polybar/config.ini
 
 # ================
 # HOTKEYS
