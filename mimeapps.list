@@ -1,0 +1,9 @@
+[Default Applications]
+text/css=userapp-kitty -e nvim-HOKMU2.desktop
+font/collection=userapp-kitty -e nvim-HOKMU2.desktop
+text/plain=userapp-kitty -e nvim-HOKMU2.desktop
+
+[Added Associations]
+text/css=nvim.desktop;userapp-kitty -e nvim-HOKMU2.desktop;
+font/collection=userapp-kitty -e nvim-HOKMU2.desktop;
+text/plain=userapp-kitty -e nvim-HOKMU2.desktop;
