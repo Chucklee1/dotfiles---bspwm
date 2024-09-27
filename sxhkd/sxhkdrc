@@ -18,6 +18,20 @@ control + shift + f
 super + e
 	thunar
 
+# screenshot
+Print
+	import ~/Pictures/screenshot_%Y-%m-%d_%H:%M:%S.png
+# volume
+XF86AudioMute
+    pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+XF86AudioLowerVolume
+    pactl set-sink-volume @DEFAULT_SINK@ -5%
+
+XF86AudioRaiseVolume
+    pactl set-sink-volume @DEFAULT_SINK@ +5%
+
+
 # ================
 # CONFIGS
 # ================
@@ -44,7 +58,7 @@ control + shift + 4
 
 # restart bspwm:
 control + alt + r
-	bspc wm -r
+	$HOME/.config/bspwm/start.sh
 
 # quit bspwm
 control + alt + Escape
