@@ -1,4 +1,4 @@
-currently testing out hyprland rn might come back to this later
+archive, probably wont use these again
 
 dotfiles
 personal use dotfiles
